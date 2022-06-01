@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&display=swap");
+
+@layer base {
+  * {
+    @apply font-[Kanit];
+  }
+
+  h1 {
+    @apply text-3xl font-bold;
+  }
+
+  li {
+    @apply p-4;
+  }
+
+  button {
+    @apply bg-gradient-to-tr from-yellow-400 to-pink-600 py-2 px-5 rounded-full font-semibold hover:opacity-90;
+  }
+}
