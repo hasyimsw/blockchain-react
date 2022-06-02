@@ -2,7 +2,7 @@ import React from 'react'
 
 const Subscribe = () => {
   return (
-    <div className='w-full px-4 py-16 bg-black text-white text-center'>
+    <div id='community' className='w-full px-4 py-24 bg-black text-white text-center'>
         <h1>Join Our <span className='bg-gradient-to-tr from-yellow-400 to-pink-600 bg-clip-text text-transparent'>DEFI</span> Community</h1>
         <div className='space-x-2 mt-10'>
             <input className='py-2 px-5 rounded-full text-black' type="email" placeholder='Enter your email' />

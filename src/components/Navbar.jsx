@@ -16,10 +16,10 @@ const Navbar = () => {
             </div>
             <div className='hidden md:flex'>
                 <ul className='flex items-center text-white'>
-                    <li className='hover:text-yellow-400'>Platform</li>
-                    <li className='hover:text-yellow-400'>Developers</li>
-                    <li className='hover:text-yellow-400'>Community</li>
-                    <li className='hover:text-yellow-400'>About</li>
+                    <li className='hover:text-yellow-400'><a href="#home">Platform</a></li>
+                    <li className='hover:text-yellow-400'><a href="#developers">Developers</a></li>
+                    <li className='hover:text-yellow-400'><a href="#community">Community</a></li>
+                    <li className='hover:text-yellow-400'><a href="#about">About</a></li>
                     <button className='ml-4'>Use DeFi</button>
                 </ul>
             </div>
@@ -30,12 +30,12 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Menu */}
-            <div className={nav ? 'w-full bg-black text-white absolute h-screen top-20 left-0 flex justify-center text-center transition-all duration-1000' : 'absolute left-[-100%]'}>
+            <div className={nav ? 'w-full bg-black text-white absolute h-screen top-20 left-0 flex justify-center text-center transition-all duration-700' : 'absolute left-[-100%]'}>
                 <ul>
-                    <li className='text-2xl hover:text-yellow-400'>Platform</li>
-                    <li className='text-2xl hover:text-yellow-400'>Developers</li>
-                    <li className='text-2xl hover:text-yellow-400'>Community</li>
-                    <li className='text-2xl hover:text-yellow-400'>About</li>
+                    <li className='hover:text-yellow-400'><a href="#home">Platform</a></li>
+                    <li className='hover:text-yellow-400'><a href="#developers">Developers</a></li>
+                    <li className='hover:text-yellow-400'><a href="#community">Community</a></li>
+                    <li className='hover:text-yellow-400'><a href="#about">About</a></li>
                     <button className='m-4'>Use DeFi</button>
                 </ul>
             </div>

@@ -3,7 +3,7 @@ import heroVid from "../assets/video.mp4";
 
 const Hero = () => {
   return (
-    <div className="w-full h-[90vh] top-20">
+    <div id="platform" className="w-full h-[90vh] top-20">
       <video
         className="object-cover h-full w-full absolute -z-10"
         src={heroVid}

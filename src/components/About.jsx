@@ -5,7 +5,7 @@ import AboutCard from "./AboutCard";
 
 const About = () => {
   return (
-    <div className="w-full py-16 bg-black ">
+    <div id="about" className="w-full py-28 bg-black ">
       <div className="text-center mx-auto px-4 text-white max-w-[1240px]">
         <h1 className="py-4">A Growing Protocol Ecosystem</h1>
         <p className="text-slate-200 text-xl py-4 lg:w-3/4 mx-auto">
