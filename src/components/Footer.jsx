@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
         </div>
         <p className="text-center text-sm text-slate-200 border-slate-200 pt-14 py-4">
-            &copy; 2022 &#124; coded with ❤️ by Hasyim 
+            &copy; 2022 &#124; coded with ❤️ by Hasyim
         </p>
     </div>
   )

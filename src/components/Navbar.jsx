@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className='w-full h-20 bg-black fixed z-10 border-b-[0.5px] border-slate-800'>
         <div className='max-w-[1240px] mx-auto px-4 flex items-center justify-between h-full'>
             <div>
-                <h1 className='bg-gradient-to-tr from-yellow-400 to-pink-600 bg-clip-text text-transparent'>DEFI</h1>
+                <h1 className='bg-gradient-to-tr from-yellow-400 to-pink-600 bg-clip-text text-transparent'><a href="#home">DEFI</a></h1>
             </div>
             <div className='hidden md:flex'>
                 <ul className='flex items-center text-white'>
